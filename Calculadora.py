@@ -151,9 +151,9 @@ label.pack()
 
 
 # Criar um botão sobre a imagem
-button = tk.Button(root, text="Calculadora", command=Calculadora_Model)
-button.place(relx=0.95, rely=0.5, anchor=tk.E)
-#root.after(5000, Calculadora_Model)
+#button = tk.Button(root, text="Calculadora", command=Calculadora_Model)
+#button.place(relx=0.95, rely=0.5, anchor=tk.E)
+root.after(10000, Calculadora_Model)
 root.mainloop()
 
 
